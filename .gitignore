@@ -1,0 +1,24 @@
+# Environment files
+.env
+backend/.env
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated RAG artifacts and local data
+chunks/
+data/
+vectorstores/
+backend/app/**/__pycache__/
